@@ -1,9 +1,8 @@
-console.log("hai anjing, coment yang bener!");
-let belajar = "oya ya belajar web";
+let belajar = "oya ya belajar web"; #variable
 /*console.log(belajar)*/
 function halo(){
   let bel = document.getElementById("tombol").value;
-  alert("comentar : " + bel);
+  alert(bel);
 }
 
 

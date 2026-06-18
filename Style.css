@@ -6,11 +6,16 @@ h1 {
 }
 .container-list {
   background-color: white;
+  justify-content: center;
 }
-.container-com{
-  display: flex;
-  color: blue;
-  text-align:center;
+.container-from{
+  /*display: flex;*/
+  justify-content: center;
+  text-align: center;
+}
+.container-order{
+  justify-content: center;
+  text-align: center;
 }
 button{
   background-color: green;
