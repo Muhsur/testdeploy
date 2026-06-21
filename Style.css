@@ -13,6 +13,26 @@ h1 {
   justify-content: center;
   text-align: center;
 }
+.container-comments{
+  margin: 30px auto;
+  max-width: 700px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+}
+.comment-item{
+  padding: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ccc;
+}
+.comment-item small{
+  display: block;
+  color: #666;
+  margin: 4px 0 8px;
+}
+.comment-item p{
+  margin: 0;
+}
 .container-order{
   justify-content: center;
   text-align: center;

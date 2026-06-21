@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS mikath_parfume;
+USE mikath_parfume;
+
+CREATE TABLE IF NOT EXISTS comments (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100) NOT NULL,
+    komentar TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

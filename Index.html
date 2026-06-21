@@ -33,13 +33,19 @@
     </div>
     <div class="container-from">
       <h2>Tulis Komentar</h2>
-      <form action="proses_form.php" method="post">
+      <form id="comment-form" action="proses_form.php" method="post">
         <label>nama :</label><br>
-        <input type="text" name="nama" id="" required><br><br>
+        <input type="text" name="nama" id="nama" required><br><br>
         <label>komentar :</label><br>
-        <textarea name="komentar" rows="5"></textarea><br>
-        <button type="sumbit">kirim</button>
+        <textarea name="komentar" id="komentar" rows="5" required></textarea><br>
+        <button type="submit">kirim</button>
       </form>
+      <p id="comment-message"></p>
+    </div>
+
+    <div class="container-comments">
+      <h2>Daftar Komentar</h2>
+      <div id="comment-list"></div>
     </div>
 
 
