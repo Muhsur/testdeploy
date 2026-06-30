@@ -1,12 +1,15 @@
 body {
   font-family: Arial;
+  background-color: #cbdf1b;
 }
 h1 {
   color: green;
 }
 .container-list {
-  background-color: white;
+  /*background-color: white;*/
+  text-align: ;
   justify-content: center;
+  justify-items: center;
 }
 .container-from{
   /*display: flex;*/
@@ -18,7 +21,7 @@ h1 {
   max-width: 700px;
   padding: 20px;
   border: 1px solid #ddd;
-  background: #f9f9f9;
+  background: #535f04;
 }
 .comment-item{
   padding: 12px;
